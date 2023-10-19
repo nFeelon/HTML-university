@@ -1,0 +1,18 @@
+@media (max-width: 480px) {
+    p {
+        font-size: 20px;
+        color: red;
+    } 
+}
+@media (min-width: 480px) and (max-width: 800px) {
+    p {
+        font-size: 30px;
+        color: blue;
+    } 
+}
+@media (min-width: 800px) {
+    p {
+        font-size: 40px;
+        color: green;
+    } 
+}

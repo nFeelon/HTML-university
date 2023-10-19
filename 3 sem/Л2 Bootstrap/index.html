@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .custom-padding {
+            padding-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Работа с Bootstrap!</h1>
+        <p>У меня все получилось.</p>
+    </div>
+    <div class="container-fluid">
+        <h1>Работа с Bootstrap!</h1>
+        <p>У меня все получилось.</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 bg-primary text-white">
+                Первый блок
+            </div>
+            <div class="col-6 bg-secondary text-white">
+                Второй блок
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-2 bg-danger text-white">
+                Блок 1
+            </div>
+            <div class="col-2 bg-warning text-white">
+                Блок 2
+            </div>
+            <div class="col-2 bg-success text-white">
+                Блок 3
+            </div>
+            <div class="col-2 bg-info text-white">
+                Блок 4
+            </div>
+            <div class="col-2 bg-primary text-white">
+                Блок 5
+            </div>
+            <div class="col-2 bg-secondary text-white">
+                Блок 6
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-3 bg-danger text-white">
+                Левый блок 1
+            </div>
+            <div class="col-3 bg-warning text-white">
+                Левый блок 2
+            </div>
+            <div class="col-2 bg-success text-white">
+                Правый блок 1
+            </div>
+            <div class="col-2 bg-info text-white">
+                Правый блок 2
+            </div>
+            <div class="col-2 bg-primary text-white">
+                Правый блок 3
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-4 bg-info">
+                .col-4
+            </div>
+            <div class="col-4 bg-warning">
+                .col-4
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 bg-info">
+                .col-4
+            </div>
+            <div class="col-4 bg-danger">
+                .col-4
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-4 bg-success">
+                .col-4
+            </div>
+            <div class="col-4 bg-primary">
+                .col-4
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-4 bg-success">
+                .col-4
+            </div>
+            <div class="col-4 bg-danger">
+                .col-4
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-4 bg-info">
+                .col-4
+            </div>
+            <div class="col-4 bg-primary">
+                .col-4
+            </div>
+        </div>
+    </div>
+    <div class="custom-padding p-3 pt-2 pb-1 m-4 ml-2">
+        Этот элемент имеет отступ сверху 3.
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

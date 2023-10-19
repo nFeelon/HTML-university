@@ -1,0 +1,21 @@
+div {
+    color: white;
+}
+#block1 {
+    background: green;
+    height: 25vw;
+    width: 25vw;
+    float: left;
+}
+#block2 {
+    background: blue;
+    height: 25vw;
+    width: 25vw;
+    float: left;
+}
+
+@media (max-width: 800px) {
+    #block1 {
+        float:none;
+    }
+}

@@ -1,0 +1,83 @@
+.zad1 div, .zad2 div {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+}
+
+.zad1 {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.block1, .block5 {
+    align-self: flex-end;
+}
+
+.block2, .block4 {
+    align-self: center;
+}
+
+.zad2 {
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.zad2 :first-child, .zad2 :last-child {
+    background-color: green;
+}
+.zad2 :last-child {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.zad2 :nth-child(8){
+    flex-grow: 0.3;
+}
+
+.zad3 {
+    height: 300px;
+    width: 300px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zad3_1 {
+    background-color: yellow;
+    height: 70%;
+    width: 70%;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.zad3_2 {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+}
+
+.zad4 {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.zad4 div {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+
+.zad4 :nth-child(2) {
+    height: 200px;
+}
+

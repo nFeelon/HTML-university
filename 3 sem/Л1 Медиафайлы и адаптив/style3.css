@@ -1,0 +1,29 @@
+.block {
+    color: white;
+    background: green;
+    width: 100px;
+    height: 250px;
+    margin: 5px;
+    padding: 20px;
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+    div {
+        float: left;
+    }
+    .cont2 {
+        float: none;
+    }
+}
+
+@media (min-width: 800px) {
+    .block{
+        float: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .block{
+        float: none;
+    }
+}

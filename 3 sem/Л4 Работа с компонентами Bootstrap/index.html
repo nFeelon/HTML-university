@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <p class="text-primary">Hello world</p>
+    <p class="text-secondary">Hello world</p>
+    <p class="text-success">Hello world</p>
+    <p class="text-danger">Hello world</p>
+    <p class="text-warning">Hello world</p>
+    <p class="text-info">Hello world</p>
+    <p class="text-light">Hello world</p>
+    <p class="text-dark">Hello world</p>
+    <br>
+    <div class="container">
+        <button class="btn btn-success btn-sm">Маленькая кнопка</button>
+        <button class="btn btn-success btn">Обычная кнопка</button>
+        <button class="btn btn-success btn-lg">Большая кнопка</button>
+
+        <button class="btn btn-danger btn-sm">Маленькая danger</button>
+        <button class="btn btn-danger btn">Обычная danger</button>
+        <button class="btn btn-danger btn-lg">Большая danger</button>
+    </div>
+    <br>
+    <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              Меню
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Опция 1</a></li>
+              <li><a class="dropdown-item" href="#">Опция 2</a></li>
+              <li><a class="dropdown-item" href="#">Опция 3</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link">1</a></li>
+            <li class="page-item"><a class="page-link">2</a></li>
+            <li class="page-item">
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <button class="btn btn-primary" type="button">Профиль <span class="badge bg-secondary">9</span></button>
+    <br>
+    <div class="btn-group mt-4" role="group" aria-label="groupbtn">
+        <button class="btn btn-success">Подтвердить</button>
+        <button class="btn btn-info">Основная</button>
+        <button class="btn btn-light">Стандартная</button>
+        <button class="btn btn-danger">Отмена</button>
+    </div>
+    <br>
+    <div class="container mt-4">
+        <button class="btn btn-primary active">Активная кнопка</button>
+        <button class="btn btn-secondary disabled" disabled>Неактивная кнопка</button>
+    </div>
+    <br>
+    <button class="btn btn-primary" type="button">
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+    </button>
+    <button class="btn btn-primary" type="button">
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Идёт загрузка
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Упс...
+    </button>
+    <br>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="password">Пароль</label>
+                <input type="password" class="form-control" id="password" placeholder="Введите пароль">
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="container mt-4">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Лабораторная работа 1</th>
+                    <th scope="col">Лабораторная работа 2</th>
+                    <th scope="col">Лабораторная работа 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ячейка</td>
+                    <td>Ячейка</td>
+                    <td>Ячейка</td>
+                </tr>
+                <tr>
+                    <td>Ячейка</td>
+                    <td>Ячейка</td>
+                    <td>Ячейка</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Ячейка</td>
+                    <td>Ячейка</td>
+                    <td>Ячейка</td>
+                </tr>
+                <tr> <!-- Как выделить ячейки?-->
+                    <td>Фу</td> 
+                    <td>Нормас</td>
+                    <td>Легкотня</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1">Открыть окно</button>
+    <div class="modal fade" id="modal1" tabindex="-1" aria-label="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Модальное окно</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Получатель:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Сообщение:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas quaerat tempore fugiat quisquam, minus est facilis, iure nemo ea, incidunt laboriosam aspernatur nisi! Provident magni odio voluptas unde incidunt exercitationem? Fugit ullam temporibus quod voluptatem. Doloribus eum esse deserunt fuga corrupti, ipsam ratione numquam dolorem exercitationem maiores velit fugit quas natus modi cumque assumenda aspernatur excepturi sapiente perferendis. Minima laboriosam nostrum, aut beatae deleniti debitis hic qui eaque sunt ex, iure cum nihil eveniet! Eligendi corrupti necessitatibus vitae quibusdam, distinctio labore doloremque ratione ipsam iusto nihil mollitia aliquid consequatur explicabo ullam tenetur obcaecati placeat incidunt repellat nobis, suscipit, nemo neque! Magni possimus veritatis molestias laborum vero, quis mollitia necessitatibus, quas eum ab tenetur praesentium et voluptatum dignissimos voluptates nemo vitae odio tempore cupiditate expedita maxime obcaecati eos saepe accusamus! Saepe minus a dolorum exercitationem aut harum fugiat dolore veritatis, consequatur dolores labore ex amet omnis iure recusandae commodi neque reiciendis aliquam officia. Minima animi autem mollitia totam nam unde repellendus nesciunt ullam provident, obcaecati rerum nulla harum architecto quis error dolorem? Rem laudantium recusandae est tenetur atque et assumenda, asperiores a minima deleniti aliquam totam accusantium ex vitae suscipit repellat in fuga consequuntur omnis? Dolores odio ducimus aliquid eligendi illo obcaecati. Voluptatem quos obcaecati recusandae incidunt tempore dicta nobis suscipit rerum, facilis rem nam! Qui possimus quas laudantium, repellat sit esse reprehenderit culpa. Error debitis ipsam, harum quasi consectetur deleniti necessitatibus, excepturi illum voluptates veniam eaque animi aut numquam fuga esse sapiente adipisci minima dicta, velit inventore consequuntur eius explicabo. Earum et cum dicta repudiandae amet similique itaque quos consectetur. Dolore cupiditate est at possimus dignissimos ullam vero. Earum quia veniam maiores minus obcaecati, esse, ut alias assumenda mollitia eius nisi commodi natus amet voluptatem facilis numquam nobis! Sed tempora doloremque nostrum nobis molestiae sit consequatur qui iusto, et hic ipsum, iste eveniet quaerat quis officiis quos ipsa ad alias praesentium minus. Nemo commodi repellat placeat adipisci assumenda corrupti. Dolorem in voluptatem, dolore vitae itaque beatae reiciendis assumenda aspernatur est sint? Veritatis, ipsum aut modi cupiditate dolorum cumque eligendi sed voluptatem voluptates quasi debitis eum amet, quisquam quam perspiciatis sunt illum facilis deleniti incidunt animi? Maiores magnam fugit, repellat, distinctio esse non cum totam ipsa quis similique animi? Corporis sit commodi adipisci vel omnis iste quis earum reiciendis sapiente molestias? Labore aliquam possimus modi consequatur ratione necessitatibus accusantium doloremque quasi nisi, sint cumque culpa omnis sapiente aperiam minima deserunt expedita velit officia unde veniam tenetur autem inventore iusto minus. Facilis libero eligendi, est exercitationem nesciunt amet, quibusdam vitae aliquid sint ad unde non, commodi fugit. Laboriosam esse cumque, accusantium qui ex error laudantium porro reprehenderit id totam quaerat hic accusamus veritatis, tempore quia aliquid. Cum eaque officiis necessitatibus culpa, quia laboriosam accusantium ab vel amet. Et distinctio, sint porro aliquid inventore magni quia repellat quod aperiam voluptatum explicabo a nam dolorem veritatis laborum nulla. Commodi nesciunt id explicabo fugiat eaque magnam, placeat reprehenderit vel magni dolorum neque accusamus velit. Exercitationem nihil deserunt tempora cupiditate quaerat enim similique nisi autem!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Отправить сообщение</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <nav id="sidebar" class="col-md-3 col-lg-2 bg-light sidebar">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Страница 1
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Страница 2
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <h1>Пример вертикальной навигационной панели</h1>
+            </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
