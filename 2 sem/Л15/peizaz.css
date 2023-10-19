@@ -1,0 +1,63 @@
+body {
+    height: 2000px;
+}
+
+#sky {
+    width: 500px;
+    height: auto;
+}
+
+#sun {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+.image {
+    color: white;
+}
+
+.image p {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.zakladka {
+    border: 1px solid;
+    width: 200px;
+    height: 100px;
+    text-align: right;
+}
+
+.zakladka img {
+    position: relative;
+    top: 25px;
+    right: 25px;
+}
+
+.up {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.up:hover {
+    background-color: grey;
+    color: white;
+}
+
+.yellow-square {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: sticky;
+    top: 20px;
+}

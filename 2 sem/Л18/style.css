@@ -1,0 +1,60 @@
+.zadanie1 :nth-child(1){
+    text-decoration: line-through;
+}
+
+.zadanie1 :nth-child(2){
+    text-decoration: underline;
+}
+
+.zadanie1 :nth-child(3){
+    text-decoration: overline;
+}
+
+.zadanie2 {
+    text-decoration: underline wavy green;
+}
+
+.zadanie3 {
+    text-decoration: underline double orange;
+}
+
+.zadanie4 {
+    text-shadow: 1px 1px red;
+    font-size: 32px;
+}
+
+.zadanie5 {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 72px;
+    text-shadow: 
+        3px 3px black,
+        4px 4px white,
+        5px 5px black,
+        6px 6px white,
+        7px 7px black,
+        8px 8px white,
+        9px 9px black,
+        10px 10px white,
+        11px 11px black,
+        12px 12px white;
+}
+
+.zadanie6 {
+    background-color: blanchedalmond;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 15px;
+    font-size: 120px;
+    text-shadow:
+        5px 0 rgba(255, 192, 200, 1),
+        13px 0 rgba(255, 192, 200, 0.75),
+        21px 0 rgba(255, 192, 200, 0.5),
+        29px 0 rgba(255, 192, 200, 0.25);
+}
+
+.zadanie7 ::first-line {
+    letter-spacing: 7px;
+}

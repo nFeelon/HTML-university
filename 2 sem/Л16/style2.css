@@ -1,0 +1,83 @@
+.block {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+
+.block1 {
+    background-image: url(images/video1pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+}
+
+.block2 {
+    background-color: aqua;
+    background-image: url(images/video1pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 600px;
+    background-position: bottom right;
+}
+
+.block3 {
+    background-image: url(images/video1pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    background-position: 50px 100px;
+}
+
+.block4 {
+    background-image: url(images/video1pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    background-position: bottom left;
+}
+
+
+.secti {
+    margin-top: 500px;
+}
+section {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.sect1 {
+    background-image: url(images/dolphins.jpg);
+}
+
+.sect2 {
+    background-image: url(images/whales.jpg);
+}
+
+.sect3 {
+    background-image: url(images/fish.jpg);
+}
+
+.multi {
+    height: 400px;
+    margin-top: 200px;
+    background-image: 
+        url(images/dolphins.jpg),
+        url(images/whales.jpg);
+    background-position: 
+        center top,
+        left center;
+    background-repeat: 
+        no-repeat,
+        repeat;
+    background-size: 
+        200px,
+        300px;
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.green {
+    background-color: green;
+    height: 33vh;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 33vh;
+}
+
+.red {
+    background-color: red;
+    height: 33vh;
+}
+
+.green, .yellow, .red {
+    width: 18vw;
+    border-radius: 150px;
+}
+
+.green:hover, .yellow:hover, .red:hover {
+    background-color: gray;
+}
+
+.light {
+    position: absolute;
+	left: 50%;
+}

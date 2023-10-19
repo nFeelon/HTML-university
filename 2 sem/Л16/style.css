@@ -1,0 +1,58 @@
+.blocks {
+    display: flex;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6 {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.block1 {
+    border-radius: 25px 0 25px 0;
+}
+
+.block2 {
+    border-radius: 10px;
+}
+
+.block3 {
+    border-radius: 25px 25px 25px 0;
+}
+
+.block4 {
+    border-radius: 100px;
+}
+
+.block5 {
+    border-radius: 100px 100px 0 0;
+}
+
+.block6 {
+    border-radius: 25px 25px 100px 100px;
+}
+
+.blockBlue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 100px 0 100px 0;
+}
+
+.zagolovok {
+    background-image: url(images/back.jpg);
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.zagolovok h3 {
+    background-color: white;
+    mix-blend-mode: lighten;
+}
+
+.backgr1 {
+    background: url(https://img2.gratispng.com/20180301/jee/kisspng-cartoon-comics-drawing-fence-vector-5a98089c41c595.4537873315199131162694.jpg);
+    width: 100vw;
+    height: 400px;
+}
