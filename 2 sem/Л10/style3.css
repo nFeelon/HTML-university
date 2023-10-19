@@ -1,0 +1,28 @@
+ul li {
+    text-transform: uppercase;
+}
+
+p.first a {
+    color: green;
+}
+
+p .first a {
+    color:green;
+}
+
+.first a {
+    color:green;
+}
+  
+h3 strong {
+    font-weight: bold;
+    color: red;
+}
+
+p > i {
+    color: blue;
+}
+
+b + i {
+    color: green;
+}

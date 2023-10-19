@@ -1,0 +1,52 @@
+#first-link:hover {
+    color: wheat;
+    cursor: n-resize;
+}
+
+#second-link:active {
+    color: red;
+}
+
+#third-link:visited{
+    color: green;
+}
+
+#third-link:link {
+    color: purple;
+}
+
+#list-two :nth-child(2n) {
+    color: red;
+}
+
+#list-ntwo :nth-child(2n+1) {
+    color: orange;
+}
+
+tr:nth-child(even) {
+    background-color: #a41f1f;
+}
+
+tr:nth-child(odd) {
+    background-color: #17d31a;
+}
+
+tr:hover {
+    background-color: blue;
+}
+
+#list-first-last :first-child, #list-first-last :last-child {
+    color:aqua;
+}
+
+#list-third :nth-child(3) {
+    color:pink;
+}
+
+#list-firstoftype :first-of-type {
+    color:red;
+}
+
+#list-lasttwo :nth-last-child(2) {
+    color: red;
+}

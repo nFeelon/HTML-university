@@ -1,0 +1,22 @@
+#video1 {
+    height: 300px;
+}
+
+#video2 {
+    height: 300px;
+}
+
+#video3 {
+    height: 300px;
+}
+
+#video2 ::cue {
+    font-size: 16px;
+    color: white;
+    background-color: black
+}
+
+.videoblock {
+    display:flex;
+    justify-content: space-between;
+}

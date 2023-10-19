@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сложный список</title>
+</head>
+<body>
+    <ol reversed start="3">
+        <li>Пункт 1
+            <ol type="A">
+                <li>Пункт 1.1
+                    <ul type="square">
+                        <li>Пункт 1.1.1</li>
+                        <li>Пункт 1.1.2</li>
+                        <li>Пункт 1.1.3</li>
+                    </ul>
+                </li>
+                <li>Пункт 1.2
+                    <ul type="circle">
+                        <li>Пункт 1.2.1</li>
+                        <li>Пункт 1.2.2</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>Пункт 2
+            <ol start="2">
+                <li>Пункт 2.1
+                    <ol type="I">
+                        <li>Пункт 2.1.1</li>
+                        <li>Пункт 2.1.2</li>
+                        <li>Пункт 2.1.3</li>
+                    </ol>
+                </li>
+                <li>Пункт 2.2
+                    <ul>
+                        <li>Пункт 2.2.1</li>
+                        <li>Пункт 2.2.2</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <dt>
+                <dl> Пункт 3.
+                    <dd>Определение пункта 3</dd>
+                    <dd>Другое определение пункта 3</dd>
+                </dl>
+            </dt>
+        </li>
+    </ol>
+    <ul style="list-style-image: url(images/point.png);"> Список с картинками
+        <li>Пункт 1</li>
+        <li>Пункт 2</li>
+        <li>Пункт 3</li>
+    </ul>
+    <ul style="list-style-type: none;"> Список без маркеров
+        <li>Пункт 1</li>
+        <li>Пункт 2</li>
+        <li>Пункт 3</li>
+    </ul>
+</body>
+</html>

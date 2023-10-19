@@ -1,0 +1,22 @@
+h3, h4 {
+    color: blue;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+}
+
+p > b {
+    color: red;
+}
+
+p > i {
+    color: blue;
+}
+
+b + span {
+    font-style: italic;
+    color: blue;
+}
+

@@ -1,0 +1,7 @@
+p {
+    font-weight: bolder;
+}
+
+span > b {
+    font-weight: 550;
+}

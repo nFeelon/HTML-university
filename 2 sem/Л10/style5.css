@@ -1,0 +1,24 @@
+p a[target="_blank"] {
+    padding-left: 15px;
+    color: green;
+}
+
+a[href] {
+    color: black;
+}
+
+a[href^="12"] {
+    font-style: italic;
+}
+
+a[href$=".com"] {
+    color: red;
+}
+
+a[href*="234"] {
+    color: blue;
+}
+
+a[href="999"],[href="888"] {
+    font-size: 1.1em;
+}

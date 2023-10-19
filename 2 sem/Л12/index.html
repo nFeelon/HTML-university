@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Форма</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Данные о пользователе</legend>
+            <p>
+                <label for="firstname">Имя:</label><br>
+                <input type="text" name="firstname" size="20" placeholder="Иван" id="firstname" title="Тут нужно ввести ВАШЕ имя." value="rtyui" readonly><br>
+            </p>
+            <p>
+                <label for="lastname">Фамилия:</label><br>
+                <input type="text" name="lastname" size="20" placeholder="Иванов" id="lastname" title="Тут нужно ввести ВАШУ фамилию." required ><br>
+            </p>
+            <p>
+                <label for="patronim">Отчество:</label><br>
+                <input type="text" name="patronim" size="20" placeholder="Иванович" id="patronim"><br>
+            </p>
+            <p>
+                <label>ваш пол:</label><br>
+                <input type="radio" name="sex" value="male">Мужской<br>
+                <input type="radio" name="sex" value="female">Женский<br>
+                <input type="radio" name="sex" value="other">Другое<br>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Анкета:</legend>
+            <p>Какую специальность Вы считаете перспективной?</p>
+            <p>
+                <input type="checkbox" name="special" value="izd">Издательское дело<br>
+                <input type="checkbox" name="special" value="che">Химия<br>
+                <input type="checkbox" name="special" value="pro">Программирование<br>
+                <input type="checkbox" name="special" value="des">Дизайн электронных и веб-изданий<br>
+            </p>
+        </fieldset>
+        <p>
+            <label for="dopselect">Дополнительные параметры: 
+                <select size="1" name="dopselect" id="dopselect">
+                    <optgroup label="1.01 Дизайн электронных и веб-изданий">
+                        <option value="l1">Лекция 01: Виды сайтов</option>
+                        <option value="l2" selected>Лекция 02: Прототип</option>
+                        <option value="l3">Лекция 03: Макет</option>
+                    </optgroup>
+                    <optgroup label="1.02 Компьютерные языки разметки">
+                        <option value="l11">Лекция 01: HTML</option>
+                        <option value="l12">Лекция 02: CSS</option>
+                    </optgroup>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label for="course">Курс</label>
+            <input type="number" name="course" size="3" min="1" max="4" step='0.5' id="course">
+        </p>
+        <p>
+            <input type="file" name="fileD">
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </p>
+    </form>
+</body>
+</html>

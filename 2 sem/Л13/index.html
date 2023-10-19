@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Аудиофайл с элементами управления</p>
+    <audio controls src="audio/Komarovo.mp3">
+        Данная аудиозапись недоступна в вашей версии браузера!
+    </audio>
+    <p>Зацикленный аудиофайл</p>
+    <audio controls loop src="audio/Komarovo.mp3">
+        Данная аудиозапись недоступна в вашей версии браузера!
+    </audio>
+    <div class="videoblock">
+        <div class="video1">
+            <p>Видео 1: </p>
+            <video id="video1" src="video/nevergonna.mp4" controls preload="auto" poster="images/video1pic.jpeg">
+                <track src="#" kind="subtitles" srclang="en" label="English">
+            </video>
+        </div>
+        <div class="video2">
+            <p>Видео 2: </p>
+            <video id="video2" src="video/allstar.mp4" controls preload="metadata"></video>
+        </div>
+        <div class="video3">
+            <p>Видео 3: </p>
+            <h1>Заголовок видео 3</h1>
+            <video id="video3" src="video/whereismymind.mp4" controls preload="none"></video>
+        </div>
+    </div>
+</body>
+</html>

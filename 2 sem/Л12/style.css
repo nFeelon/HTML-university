@@ -1,0 +1,15 @@
+form input[type="text"]:hover {
+    cursor: text;
+}
+
+form select:hover {
+    cursor: pointer;
+} 
+
+form button:hover {
+    cursor: pointer;
+}
+
+form input[type="file"]:hover {
+    cursor: pointer;
+}

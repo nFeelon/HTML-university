@@ -1,0 +1,84 @@
+body, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+p:hover, a:hover, li:hover {
+    color: gray;
+}
+
+body {
+   margin-left: 200px;
+   margin-right: 200px;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    position: fixed;
+    width: 76%
+}
+
+header p {
+    font-size: 3.5em;
+    margin-left: 60px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 60px;
+}
+.right-header a {
+    margin-left: 5px;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.main-content {
+    display: flex;
+}
+
+header, main, nav, footer {
+    border: 1px solid black;
+}
+
+main p {
+    text-indent: 20px;
+}
+
+main p, nav ul{
+    font-size: 2em;
+    margin: 20px;
+    text-align: justify;
+}
+main, nav {
+    background-color: azure;
+    margin-top: 100px;
+}
+nav p {
+    font-size: 2em;
+    margin: 20px 20px 0;
+}
+nav ul {
+    list-style-type: none;
+}
+footer p {
+    font-size: 2em;
+    margin: 25px 60px 25px;
+}
+footer {
+    background-color: aliceblue;
+}
+
+
+.you .io p{
+ color:red;
+}
+
+#you .io p{
+ color:black;
+}
+

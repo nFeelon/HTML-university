@@ -1,0 +1,54 @@
+p.first::first-letter {
+    color: blue;
+    font-size: 2em;
+}
+
+p.second span::before {
+    content: "«";
+    color: blue;
+}
+
+p.second span::after {
+    content: "»";
+    color: red;
+}
+
+p.third::first-line {
+    color: red;
+}
+
+p.third::before {
+    content: "Текст перед абзацем."
+}
+
+p.third::after {
+    content: "Текст после абзаца."
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.list li {
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+.list a {
+    text-decoration: none;
+    color: blue;
+}
+
+.list a:hover {
+    font-weight: bold;
+}
+
+input::placeholder {
+    color:red;
+}
+
+textarea::placeholder {
+    color: blue;
+    font-style: italic;
+}
