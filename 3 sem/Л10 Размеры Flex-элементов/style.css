@@ -1,0 +1,119 @@
+.zad1 {
+    display: flex;
+
+}
+.zad1 div {
+    height: 100px;
+}
+
+.e1 {
+    background-color: blue;
+    flex-grow: 1;
+}
+.e2 {
+    background-color: red;
+    flex-grow: 2;
+}
+
+.zad2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 401px;
+}
+.zad2 img {
+    height: 100px;
+}
+
+.e21 {
+    flex-basis: 100%;
+    border: 1px solid red;
+}
+.zad3 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.zad3 div {
+    flex-basis: 200px;
+}
+.z31 {
+    background-color: lightcoral;
+    flex-shrink: 1;
+}
+.z32 {
+    background-color: lightblue;
+    flex-shrink: 2;
+}
+.z33 {
+    background-color: lightgreen;
+    flex-shrink: 3;
+}
+.zad4 {
+    margin-top: 50px;
+    height: 20px;
+    display: flex;
+    text-align: center;
+}
+.z41 {
+    flex: 3 3 50%;
+    background-color: yellow;
+}
+.z42 {
+    flex: 1 1 50%;
+    background-color: orange;
+}
+
+.zad42 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.z421 {
+    background-color: yellow;
+    flex: 0 0 7em;
+}
+.z422 {
+    background-color: orange;
+    flex: 0 1 7em;
+}
+.z423 {
+    background-color: red;
+    flex: 1;
+}
+.z424 {
+    background-color: purple;
+    flex: 2;
+}
+
+.zad5 {
+    font-family: sans-serif;
+    width: 450px;
+}
+.zad5 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.zad5 h2 {
+    margin-top: 0;
+    font-weight: 400;
+}
+.zad5__elems {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.zad5__elems p{
+    margin-top: 0;
+    width: 225px;
+}
+
+.zad6 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.zad6 img {
+    width: 400px;
+}
