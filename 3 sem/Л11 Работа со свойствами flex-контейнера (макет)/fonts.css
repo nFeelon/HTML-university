@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-SemiBold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AdventPro';
+    src: url(fonts/AdventPro-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AdventPro';
+    src: url(fonts/AdventPro-Bold.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(fonts/OpenSans.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
