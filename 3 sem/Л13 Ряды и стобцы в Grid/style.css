@@ -1,0 +1,121 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+.grid-item {
+    font-size: 16px;
+    text-align: left;
+  }
+  
+.grid-container2 {
+    display: grid;
+    grid-template-rows: minmax(100px, auto);
+  }
+  
+.grid-item2 {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+}
+  
+.card {
+    border: 1px solid black;
+    padding: 10px;
+}
+  
+.grid-container4 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+  
+.item {
+    background-color: lightgreen;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.zad5 {
+    border: 1px solid;
+    margin-top: 50px;
+}
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 50px;
+}
+  
+.image {
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+    width: 100%;
+    padding: 25px;
+}
+  
+.text {
+    padding: 10px; /* Отступ внутри элемента */
+}
+.text1 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  padding: 25px;
+}
+
+.text2 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  padding: 25px;
+}
+
+.text3 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  padding: 25px;
+}
+
+.text4 {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  padding: 25px;
+}
+
+.text5 {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  padding: 25px;
+}
+
+.text6 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  padding: 25px;
+  font-size: 30px;
+}
+
+.button-container {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  display: flex;
+  padding: 25px;
+}
+.button-container button {
+    height: 25px;
+    width: auto;
+}
+  
+@media only screen and (max-width: 576px) {
+    .grid-container {
+      grid-template-columns: 100px;
+    }
+}
+  
