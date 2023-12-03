@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Lota';
+    src: url('font/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lota';
+    src: url('font/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Lota';
+    src: url('font/Lato-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
