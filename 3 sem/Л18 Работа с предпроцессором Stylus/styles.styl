@@ -1,0 +1,28 @@
+$textColor = #f0f
+$borderStyles = 1px solid #ccc
+
+
+add(a, b)
+  a+b
+
+roundedCorners()
+  border-radius: 5px
+
+boxShadow()
+  box-shadow: 2px 2px 5px #888
+
+.block
+  color $textColor
+  border $textColor
+  &:hover
+    color lighten($textColor, 50)
+
+.block-with-mixins
+  color spin($textColor, 30)
+  roundedCorners()
+  boxShadow()
+  &:hover
+    color darken($textColor, 100)
+
+body
+  padding add(10px, 5)

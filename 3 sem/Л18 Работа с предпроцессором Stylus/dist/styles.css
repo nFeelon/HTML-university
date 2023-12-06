@@ -1,0 +1,18 @@
+.block {
+  color: #f0f;
+  border: #f0f;
+}
+.block:hover {
+  color: #fff;
+}
+.block-with-mixins {
+  color: #ff0080;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888;
+}
+.block-with-mixins:hover {
+  color: #000;
+}
+body {
+  padding: 15px;
+}

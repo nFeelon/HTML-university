@@ -1,0 +1,22 @@
+bookstore {
+    display: flex;
+    flex-direction: column;
+}
+
+book {
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 5px;
+}
+
+title1 {
+    font-weight: bold;
+}
+
+author {
+    color: #0077cc;
+}
+
+price {
+    color: #009900;
+}

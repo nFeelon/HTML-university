@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .menu-item:hover {
+            text-decoration: underline;
+        }
+
+        .hover-color-change:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body class="p-8">
+
+    <button class="bg-blue-500 text-white p-2">Кнопка 1</button>
+    <button class="bg-green-400 text-white p-4">Кнопка 2</button>
+
+    <ul class="mt-4">
+        <li class="menu-item">Главная</li>
+        <li class="menu-item">О нас</li>
+        <li class="menu-item">Контакты</li>
+    </ul>
+
+    <p class="mt-4">Этот текст содержит <span class="hover-color-change">слово</span>, при наведении на которое меняется
+        цвет.</p>
+
+    <div class="flex mt-4">
+        <div class="flex-1 bg-gray-300 p-4">Элемент 1</div>
+        <div class="flex-2 bg-gray-500 p-4">Элемент 2</div>
+        <div class="flex-1 bg-gray-700 p-4">Элемент 3</div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 mt-4">
+        <div class="bg-purple-300 p-4">Ячейка 1</div>
+        <div class="bg-purple-500 p-4">Ячейка 2</div>
+        <div class="bg-purple-700 p-4">Ячейка 3</div>
+        <div class="bg-purple-300 p-4">Ячейка 4</div>
+        <div class="bg-purple-500 p-4">Ячейка 5</div>
+        <div class="bg-purple-700 p-4">Ячейка 6</div>
+    </div>
+
+</body>
+
+</html>

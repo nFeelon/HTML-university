@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<bookstore>
+    <book category="Fiction">
+        <title1>Harry Potter and the Sorcerer's Stone</title1>
+        <author>J.K. Rowling</author>
+        <price>19.99</price>
+    </book>
+    <book category="Non-fiction">
+        <title1>Science in the 21st Century</title1>
+        <author>John Smith</author>
+        <price>29.99</price>
+
+    </book>
+    <book category="Non-fiction">
+        <title1>Greatest people in world history</title1>
+        <author>Filon Nikita</author>
+        <price>5.99</price>
+    </book>
+</bookstore>
